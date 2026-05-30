@@ -7,7 +7,7 @@
 
 <h1>Security Form</h1>
 
-<form action="/submit" method="post">
+<form action="<?= base_url('submit') ?>" method="post">
 
     <?= csrf_field() ?>
 

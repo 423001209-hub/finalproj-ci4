@@ -11,6 +11,7 @@ class SecurityController extends BaseController
 
     public function submit()
     {
+
         $name = $this->request->getPost('name');
 
         return view('security_result', [
